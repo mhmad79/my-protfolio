@@ -5,11 +5,11 @@ export default function Hero() {
           <img
             src="/my3.jpeg" // ضع صورة شخصية لك هنا أو استخدم رابط خارجي
             alt="Mohammed Khalifa"
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-xs rounded-lg shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold">Hello, I'm Mohammed Khalifa</h1>
-            <p className="py-6 max-w-xl">
+            <h1 className=" text-2xl md:text-5xl font-bold">Hello, I'm Mohammed Khalifa</h1>
+            <p className="py-6 max-w-xl text-sm md:text-[15px]">
               I'm a passionate Front-End Developer specializing in React, Next.js, and Tailwind CSS. 
               I focus on creating user-centric web applications that are both responsive and scalable. 
               Currently, I'm expanding my skillset into full-stack development, with a strong focus on API integration and dynamic UI designs.

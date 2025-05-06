@@ -61,7 +61,7 @@ export default function Projects() {
           id={project.id}
           className="card bg-base-100 shadow-sm"
           data-aos="fade-up"
-          data-aos-delay={index * 200} // تأخير بين كل مشروع وآخر
+          data-aos-delay={index * 100} // تأخير بين كل مشروع وآخر
         >
           <figure className="overflow-hidden">
             <img
