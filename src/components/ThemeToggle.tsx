@@ -1,17 +1,18 @@
-// components/ThemeToggle.jsx
 "use client"
 import { useState, useEffect } from "react"
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState("dark") // افتراضي داكن
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const storedTheme = localStorage.getItem("theme")
-      if (storedTheme) {
-        setTheme(storedTheme)
-        document.documentElement.setAttribute("data-theme", storedTheme)
-      }
+
+      const currentTheme = storedTheme || "dark" // لو مافي تخزين، خليه داكن
+
+      setTheme(currentTheme)
+      document.documentElement.setAttribute("data-theme", currentTheme)
+      localStorage.setItem("theme", currentTheme) // نثبّت الداكن أول مرة
     }
   }, [])
 
@@ -24,7 +25,7 @@ export default function ThemeToggle() {
 
   return (
     <button onClick={toggleTheme} className="btn btn-sm btn-outline">
-      {theme === "light" ? "🌙 dark " : "☀️  light"}
+      {theme === "light" ? "🌙 dark " : "☀️ light"}
     </button>
   )
 }
