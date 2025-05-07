@@ -5,7 +5,7 @@ export default function Hero() {
         <img
           src="/my3.jpeg"
           alt="Mohammed Khalifa"
-          className="max-w-xs rounded-lg shadow-2xl"
+          className="max-w-xs rounded-lg shadow-2xl h-72 sm:h-full"
         />
         <div>
           <h1 className=" text-2xl md:text-5xl font-bold">I&apos;m a frontend developer</h1>
