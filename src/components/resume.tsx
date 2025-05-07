@@ -61,13 +61,13 @@ export default function Resume() {
           </p>
         </div>
 
-        {/* Certificates */}
+        {/* Certificates
         <div className="card shadow-lg p-6 bg-base-200" data-aos="fade-up">
           <h3 className="text-2xl font-semibold mb-4">Certificates & Trainings</h3>
           <p>
             Add any certifications or online course links (e.g., from Coursera, Udemy).
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   )
