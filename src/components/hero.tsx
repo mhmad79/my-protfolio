@@ -14,7 +14,7 @@ export default function Hero() {
     <div className="hero bg-base-200 min-h-screen" id="about">
       <div className="hero-content flex-col lg:flex-row">
         <img
-          src="/my3.jpeg"
+          src="/my-4.jpeg"
           alt="Mohammed Khalifa"
           className="max-w-xs rounded-lg shadow-2xl h-72 sm:h-full"
           data-aos="fade-right"
