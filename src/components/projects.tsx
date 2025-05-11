@@ -10,6 +10,14 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "Modern E-Commerce UI with Next.js & FakeStore API ",
+      description:
+        "E-Commerce Storefront UI – Built with Next.js, Tailwind CSS, and TypeScript Designed and developed a modern e-commerce frontend consuming the FakeStore API. Implemented dynamic routing for product and category pages, interactive cart functionality using React Context API, and responsive UI with cleancomponent structure.",
+      image: "/proj-6.png",
+      link: "  https://spectacular-genie-5c0439.netlify.app/",
+      github: ' https://github.com/mhmad79/e-commerc-clothes.git |'
+    },
+    {
       title: "Cafeteria Management System ",
       description:
         "Cafeteria Management System Full-stack web app for managing an institute cafeteria. Built using Next.js, NextAuth, and MongoDB.- User Role: Browse products, place orders, view order history.- Admin Role: Manage products, categories, update orders, assign user roles",
@@ -50,7 +58,7 @@ export default function Projects() {
       link: " https://mhmad79.github.io/web-sit-for-shopping/",
       github: ' https://github.com/mhmad79/web-sit-for-shopping.git'
     },
-    // باقي المشاريع...
+    
   ];
 
   return (
