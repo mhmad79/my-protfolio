@@ -45,7 +45,7 @@ export default function Resume() {
           <p>
             <strong>Bachelor’s in Management Information Systems (MIS)</strong><br />
             Higher Institute of Computers and Information Systems, Cairo<br />
-            10/09/2020 – Present
+            10/09/2020 – 25/05/2025 Cairo, Egypt
           </p>
         </div>
 
